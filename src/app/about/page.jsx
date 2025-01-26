@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function AboutPage() {
     return (
       <div>
-         <header className="bg-green-600 text-white py-4">
+         <header className="bg-purple-700 text-white py-4">
         <div className="container mx-auto px-6 flex justify-between items-center">
           <h1 className="text-2xl font-bold">Saylani Microfinance</h1>
           <nav>
@@ -13,11 +13,14 @@ export default function AboutPage() {
             <Link href="/about" className="px-4 py-2 hover:text-blue-200">
               About Us
             </Link>
+            <Link href="/register" className="px-4 py-2 hover:text-yellow-300">
+               Register
+            </Link>
           </nav>
         </div>
       </header>
         {/* About Hero Section */}
-        <section className="bg-gradient-to-r from-blue-500 to-green-600 text-white">
+        <section className="bg-gradient-to-r from-blue-700 to-purple-600 text-white">
           <div className="container mx-auto px-6 py-16 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               About Saylani Microfinance
@@ -31,13 +34,13 @@ export default function AboutPage() {
         {/* Mission and Vision Section */}
         <section className="bg-gray-100 py-16">
           <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl font-bold text-green-600 mb-6">Our Mission</h2>
+            <h2 className="text-3xl font-bold text-purple-700 mb-6">Our Mission</h2>
             <p className="text-gray-700 text-lg md:text-xl mb-8">
               Saylani Welfare is dedicated to improving the lives of underprivileged
               communities by providing access to interest-free loans. We empower individuals
               to build better futures, whether through education, business, or homeownership.
             </p>
-            <h2 className="text-3xl font-bold text-green-600 mb-6">Our Vision</h2>
+            <h2 className="text-3xl font-bold text-purple-700 mb-6">Our Vision</h2>
             <p className="text-gray-700 text-lg md:text-xl">
               We envision a society where everyone has the resources to lead a dignified
               life, free from the burdens of financial instability.
@@ -48,7 +51,7 @@ export default function AboutPage() {
         {/* Why Choose Us Section */}
         <section className="bg-white py-16">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center text-green-600 mb-12">
+            <h2 className="text-3xl font-bold text-center text-purple-700 mb-12">
               Why Choose Saylani Microfinance?
             </h2>
             <div className="grid gap-8 md:grid-cols-3">
@@ -83,7 +86,7 @@ export default function AboutPage() {
         {/* Team Section */}
         <section className="bg-gray-100 py-16">
           <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl font-bold text-green-600 mb-6">Our Team</h2>
+            <h2 className="text-3xl font-bold text-blue-500 mb-6">Our Team</h2>
             <p className="text-gray-700 text-lg md:text-xl">
               A dedicated group of professionals and volunteers committed to bringing
               Saylani’s vision to life.
@@ -93,3 +96,7 @@ export default function AboutPage() {
       </div>
     );
   }
+
+
+
+
